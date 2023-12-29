@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app-client-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app-domain-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/project-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/app-client-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/app-domain-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/project-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-part1-decomposed/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

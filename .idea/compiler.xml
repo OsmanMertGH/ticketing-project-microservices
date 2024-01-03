@@ -2,20 +2,47 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="project-service (2)" />
         <module name="project-service (1)" />
         <module name="app-client-management (1)" />
-        <module name="user-service (1)" />
-        <module name="app-client-management (2)" />
         <module name="user-service (2)" />
         <module name="app-domain-model (1)" />
-        <module name="task-service (1)" />
-        <module name="app-domain-model (2)" />
         <module name="task-service (2)" />
+        <module name="discovery-service" />
+      </profile>
+      <profile name="Annotation profile for ticketing-project-microservices" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="task-service (1)" />
+      </profile>
+      <profile name="Annotation profile for app-client-management (2)" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-client-management (2)" />
+      </profile>
+      <profile name="Annotation profile for app-domain-model (2)" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-domain-model (2)" />
+      </profile>
+      <profile name="Annotation profile for project-service (2)" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="project-service (2)" />
+      </profile>
+      <profile name="Annotation profile for user-service (1)" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-service (1)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +52,7 @@
       <module name="app-client-management (2)" options="-parameters" />
       <module name="app-domain-model (1)" options="-parameters" />
       <module name="app-domain-model (2)" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="project-service (1)" options="-parameters" />
       <module name="project-service (2)" options="-parameters" />
       <module name="task-service (1)" options="-parameters" />

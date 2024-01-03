@@ -7,7 +7,7 @@ services:
       - "5435:5432"
     environment:
       POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "admin"
+      POSTGRES_PASSWORD: "postgr123"
       POSTGRES_DB: "ticketing-app"
     volumes:
       - ./init:/docker-entrypoint-initdb.d
@@ -56,6 +56,13 @@ services:
       - "9092:9092"
     networks:
       - backend
+  discovery-service:
+    image: ${GROUP_ID}/discovery-service:${SERVICE_VERSION:-latest}
+    ports:
+      - "8761:8761"
+    networks:
+      - backend
+
 networks:
   backend:
     driver: bridge
